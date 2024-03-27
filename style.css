@@ -1,0 +1,218 @@
+/*    My Project no. #4    */
+
+
+
+* {
+     margin: 0;
+     padding: 0;
+ }
+
+body {
+    background-color: #BDC6D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.slider-text {
+    display: flex;
+    justify-content: right;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.slider-cover {
+    position: absolute;
+    top: 0;
+    width: 0;
+    transition: width 1s;
+}
+
+.circle-div {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    transition: transform 1s;
+}
+
+.cover-slide-anim {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+#javascript {
+    background-color: #192442;
+    width: 240px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+#javascript .slider-text {
+    width: 240px;
+    height: 70px;
+    padding-right: 50px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#javascript .slider-cover {
+    background-color: #192442;
+    height: 70px;
+}
+
+#javascript .circle-div {
+    width: 70px;
+    height: 70px;
+    background-color: #FFE342;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #192442;
+}
+
+.javascript-slide-anim {
+    transform: translate(170px) rotate(360deg);
+}
+
+
+
+
+
+#html {
+    background-color: #192442;
+    width: 170px;
+    height: 70px;
+    border-radius: 35px;
+}
+
+#html .slider-text {
+    width: 170px;
+    height: 70px;
+    padding-right: 30px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#html .slider-cover {
+    background-color: #192442;
+    height: 70px;
+}
+
+#html .circle-div {
+    width: 70px;
+    height: 70px;
+    background-color: #F76521;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: white;
+}
+
+.html-slide-anim {
+    transform: translate(100px) rotate(360deg);
+}
+
+
+
+
+
+#cpp {
+    background-color: #192442;
+    width: 200px;
+    height: 50px;
+    border-radius: 35px;
+}
+
+#cpp .slider-text {
+    width: 200px;
+    height: 50px;
+    padding-right: 30px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#cpp .slider-cover {
+    background-color: #192442;
+    height: 50px;
+}
+
+#cpp .circle-div {
+    width: 50px;
+    height: 50px;
+    background-color: #0075BD;
+    font-size: 1.2em;
+    color: white;
+}
+
+.cpp-slide-anim {
+    transform: translate(150px) rotate(360deg);
+}
+
+
+
+
+
+#java {
+    background-color: #293D6C;
+    width: 170px;
+    height: 50px;
+    border-radius: 35px;
+}
+
+#java .slider-text {
+    width: 170px;
+    height: 50px;
+    padding-right: 30px;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#java .slider-cover {
+    background-color: #293D6C;
+    height: 50px;
+}
+
+#java .circle-div {
+    width: 50px;
+    height: 50px;
+    background-color: #FFA210;
+    font-size: 1.2em;
+    color: white;
+}
+
+.java-slide-anim {
+    transform: translate(120px) rotate(360deg);
+}
+
+
+
+
+
+
+
+
+
